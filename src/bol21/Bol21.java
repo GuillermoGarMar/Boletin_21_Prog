@@ -29,9 +29,8 @@ public class Bol21 {
         String cadena[];
         cadena = frases.split(" ");
         listaPalabras.addAll(Arrays.asList(cadena));
-        JOptionPane.showMessageDialog(null, (listaPalabras.get(1)));
         Collections.sort(listaPalabras);
-        Escribir.añadir(listaPalabras);
+        Escribir.añadir("TextoBol21.txt",listaPalabras);
 
     }
 
